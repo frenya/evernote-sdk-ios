@@ -70,7 +70,7 @@
                              @"%23", @"%21", @"%27",
                              @"%28", @"%29", @"%2A", @"+", nil];
 	
-	int len = [escapeChars count];
+	int len = (int)[escapeChars count];
 	
 	NSMutableString *temp = [self mutableCopy];
 	
